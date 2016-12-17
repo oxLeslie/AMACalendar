@@ -1,2 +1,2 @@
 # AMACalendar
-this is a Chinese Calendar.
+This is a Chinese Calendar.
