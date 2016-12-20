@@ -11,6 +11,11 @@
 [![Platform](https://img.shields.io/cocoapods/p/AMACalendar.svg?style=flat)](http://cocoapods.org/pods/AMACalendar)
 [![Request](https://img.shields.io/cocoapods/r/AMACalendar.svg?style=flat)](http://cocoapods.org/pods/AMACalendar)
 
+Requirements
+
+- Xcode 8+
+- swift 3.0+
+- iOS 9.0+
 
 Usage
 
