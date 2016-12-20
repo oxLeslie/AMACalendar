@@ -1,6 +1,8 @@
-AMACalendar
-This is a Chinese Calendar.
-The project `AMACalendar` is customized for `Bmemo` and it borrows [daysquare](https://github.com/unixzii/Daysquare). Because `Bmemo` reason, i added the support of the lunar calendar.
+###### AMACalendar
+
+###### This is a Chinese Calendar.
+
+###### The project `AMACalendar` is customized for `Bmemo` and it borrows [daysquare](https://github.com/unixzii/Daysquare). Because `Bmemo` reason, i added the support of the lunar calendar.
 
 ============
 [![CocoaPods](https://img.shields.io/cocoapods/v/AMACalendar.svg)](https://github.com/Ama4Q/AMACalendar)
@@ -8,22 +10,26 @@ The project `AMACalendar` is customized for `Bmemo` and it borrows [daysquare](h
 [![Build Status](https://travis-ci.org/Ama4Q/AMACalendar.svg?branch=master)](https://travis-ci.org/Ama4Q/AMACalendar)
 
 
-## Usage
+Usage
 
 ```swift
-let calendar = calendarView(frame: CGRect(x: 10, y: 50, width: UIScreen.main.bounds.width - 20, height: 280))
-        calendar.addTarget(self, action: #selector(calendarChange), for: .valueChanged)
-        view.addSubview(calendar)
+let calendar = calendarView(frame: CGRect(x: 10,
+                                          y: 50, 
+                                      width: UIScreen.main.bounds.width - 20, 
+                                     height: 280))
+                                     
+calendar.addTarget(self, action: #selector(calendarChange), for: .valueChanged)
+view.addSubview(calendar)
 ```
 ```swift
 @objc fileprivate func calendarChange(view: calendarView) {
-        let formatter = DateFormatter()
-        formatter.dateFormat = "YYYY-MM-dd"
-        print(formatter.string(from: (view.selectedDate?.0)!), view.selectedDate!.1)
-    }
+    let formatter = DateFormatter()
+    formatter.dateFormat = "YYYY-MM-dd"
+    print(formatter.string(from: (view.selectedDate?.0)!), view.selectedDate!.1)
+}
 ```
-# Installation
-## Cocoapods
+Installation
+Cocoapods
 
 ```ruby
 pod 'AMACalendar', ~> 0.0.1
