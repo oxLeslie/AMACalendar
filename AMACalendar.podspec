@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AMACalendar"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "This is a Chinese calendar."
 
   s.homepage     = "https://github.com/Ama4Q/AMACalendar"
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   }
 
   s.source_files  = "Sources/CLib/*.swift"
-  s.resources = "Sources/images/*.png"
+  s.resources = "Sources/CLib/AMACalendar.bundle"
 
   s.requires_arc = true
 

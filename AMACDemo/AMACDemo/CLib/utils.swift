@@ -26,7 +26,7 @@ class utils: NSObject {
     static fileprivate let chinese: Calendar = Calendar(identifier: .chinese)
     
     // 星期
-    static fileprivate let weeks: [String] = ["日","一","二","三","四","五","六"]
+    static fileprivate let weeks: [String] = ["Sun", "Mon", "Tues", "Wed", "Thur", "Fri", "Sat"]
     
     // 中国日历 日
     static fileprivate let chineseDays: [String] =
@@ -53,12 +53,12 @@ class utils: NSObject {
          9: "壬申猴年", 19: "壬午马年", 29: "壬辰龙年", 39: "壬寅虎年", 49: "壬子鼠年", 59: "壬戌狗年",
         10: "癸酉鸡年", 20: "癸未羊年", 30: "癸巳蛇年", 40: "癸卯兔年", 50: "癸丑牛年", 60: "癸亥猪年",]
     
-    // 获取 年月的 Date
+    // 获取 年月
     class func date(month: Int, year: Int) -> Date? {
         return date(month: month, day: 1, year: year)
     }
     
-    // 获取 年月日的 Date
+    // 获取 年月日
     class func date(month: Int, day: Int, year: Int) -> Date? {
         var comps = DateComponents()
         comps.year = year
@@ -103,7 +103,7 @@ class utils: NSObject {
     // 获取 礼拜
     class func stringOfWeekday(weekday: Int) -> String? {
         assert(weekday >= 1 && weekday <= 7, "Invalid weekday: \(weekday)")
-        return weeks[weekday - 1]
+        return calendarBundle.localizedStr(fotKey: weeks[weekday - 1])
     }
     
     // 通过Date 获取 component
@@ -112,7 +112,7 @@ class utils: NSObject {
         return gregorian.dateComponents( comps, from: date)
     }
     
-    // 转换 Chinese date
+    // change Chinese date
     class func date(convertToCComps month: Int, day: Int, year: Int) -> DateComponents {
         let comps: Set<Calendar.Component> = [.year, .month, .day]
         let date = self.date(month: month, day: day, year: year)!
@@ -120,7 +120,7 @@ class utils: NSObject {
         return chinese.dateComponents( comps, from: date)
     }
     
-    // get Chinese year
+    // 获取 Chinese year
     class func date(convertToCYearStr year: Int) -> String {
         guard let cYear = tGdZ[year] else {
             fatalError("invalid year \(year)")
@@ -128,17 +128,17 @@ class utils: NSObject {
         return cYear
     }
     
-    // get Chinese month
+    // 获取 Chinese month
     class func date(convertToCMonthStr month: Int) -> String {
         return chineseMonths[month - 1]
     }
     
-    // get Chinese day
+    // 获取 Chinese day
     class func date(convertToCDayStr day: Int) -> String {
         return chineseDays[day - 1]
     }
     
-    // 判断 Date 是否是今天
+    // Date 是否是今天
     class func isDateToday(components: DateComponents) -> Bool {
         let todayComps = date(fromDate: Date(timeIntervalSinceNow: 0))
         

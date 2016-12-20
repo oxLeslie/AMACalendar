@@ -18,6 +18,8 @@
 		81590F2A1E0576EC000AED76 /* componentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81590F241E0576EC000AED76 /* componentView.swift */; };
 		81590F2B1E0576EC000AED76 /* indicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81590F251E0576EC000AED76 /* indicatorView.swift */; };
 		81590F2C1E0576EC000AED76 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81590F261E0576EC000AED76 /* utils.swift */; };
+		81FD63A11E0980EB0044C2BB /* calendar+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FD63A01E0980EB0044C2BB /* calendar+Bundle.swift */; };
+		81FD63A31E0982FD0044C2BB /* AMACalendar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 81FD63A21E0982FD0044C2BB /* AMACalendar.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		81590F241E0576EC000AED76 /* componentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = componentView.swift; sourceTree = "<group>"; };
 		81590F251E0576EC000AED76 /* indicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = indicatorView.swift; sourceTree = "<group>"; };
 		81590F261E0576EC000AED76 /* utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		81FD63A01E0980EB0044C2BB /* calendar+Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "calendar+Bundle.swift"; sourceTree = "<group>"; };
+		81FD63A21E0982FD0044C2BB /* AMACalendar.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMACalendar.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 		81590F201E0576EC000AED76 /* CLib */ = {
 			isa = PBXGroup;
 			children = (
+				81FD63A21E0982FD0044C2BB /* AMACalendar.bundle */,
+				81FD63A01E0980EB0044C2BB /* calendar+Bundle.swift */,
 				81590F211E0576EC000AED76 /* calendarBar.swift */,
 				81590F221E0576EC000AED76 /* calendarView.swift */,
 				81590F231E0576EC000AED76 /* cLabel.swift */,
@@ -153,6 +159,7 @@
 				81590F191E0576CE000AED76 /* LaunchScreen.storyboard in Resources */,
 				81590F161E0576CE000AED76 /* Assets.xcassets in Resources */,
 				81590F141E0576CE000AED76 /* Main.storyboard in Resources */,
+				81FD63A31E0982FD0044C2BB /* AMACalendar.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +176,7 @@
 				81590F2B1E0576EC000AED76 /* indicatorView.swift in Sources */,
 				81590F111E0576CE000AED76 /* ViewController.swift in Sources */,
 				81590F281E0576EC000AED76 /* calendarView.swift in Sources */,
+				81FD63A11E0980EB0044C2BB /* calendar+Bundle.swift in Sources */,
 				81590F0F1E0576CE000AED76 /* AppDelegate.swift in Sources */,
 				81590F2C1E0576EC000AED76 /* utils.swift in Sources */,
 			);
@@ -336,6 +344,7 @@
 				81590F1F1E0576CE000AED76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

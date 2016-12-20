@@ -18,14 +18,14 @@ public class calendarView: UIControl {
         return UIColor(colorLiteralRed: 0.4,
                        green: 0.4,
                        blue: 0.4,
-                       alpha: 0.5)
+                       alpha: 1)
     }()
     
     public var weekdayHeaderWeekendTextColor: UIColor? = {
         return UIColor(colorLiteralRed: 0.99,
                        green: 0.62,
                        blue: 0.86,
-                       alpha: 0.5)
+                       alpha: 1)
     }()
     
     public var selectedIndicatorColor: UIColor? = {

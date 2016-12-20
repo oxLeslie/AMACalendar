@@ -30,10 +30,7 @@ class calendarBar: UIControl {
         let pBtn = UIButton(type: .custom)
         pBtn.translatesAutoresizingMaskIntoConstraints = false
         
-        pBtn.setImage(UIImage(named: "prev")?
-            .withRenderingMode(
-                .alwaysTemplate),
-                                for: .normal)
+        pBtn.setImage(calendarBundle.previousImage(), for: .normal)
         
         pBtn.tintColor = UIColor(colorLiteralRed: 0.99,
                                  green: 0.62,
@@ -47,10 +44,7 @@ class calendarBar: UIControl {
         let nBtn = UIButton(type: .custom)
         nBtn.translatesAutoresizingMaskIntoConstraints = false
         
-        nBtn.setImage(UIImage(named: "next")?
-            .withRenderingMode(
-                .alwaysTemplate),
-                                for: .normal)
+        nBtn.setImage(calendarBundle.nextImage(), for: .normal)
         
         nBtn.tintColor = UIColor(colorLiteralRed: 0.99,
                                  green: 0.62,
