@@ -9,7 +9,6 @@
 [![Swift Package Manager](https://rawgit.com/jlyonsmith/artwork/master/SwiftPackageManager/swiftpackagemanager-compatible.svg)](https://swift.org/package-manager/)
 [![License](https://img.shields.io/cocoapods/l/AMACalendar.svg?style=flat)](http://cocoapods.org/pods/AMACalendar)
 [![Platform](https://img.shields.io/cocoapods/p/AMACalendar.svg?style=flat)](http://cocoapods.org/pods/AMACalendar)
-[![Request](https://img.shields.io/cocoapods/r/AMACalendar.svg?style=flat)](http://cocoapods.org/pods/AMACalendar)
 
 Requirements
 
@@ -36,7 +35,8 @@ view.addSubview(calendar)
 }
 ```
 Installation
-Cocoapods
+
+- Cocoapods
 
 ```ruby
 pod 'AMACalendar', ~> 0.0.1
