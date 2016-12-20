@@ -1,7 +1,7 @@
 ##### AMACalendar
 
 ###### This is a Chinese Calendar.
-Project "AMACalendar" is for "Bmemo" to write, it refer to the "dd"
+
 ###### The project `AMACalendar` is for `Bmemo` to write and it refer to the [Daysquare](https://github.com/unixzii/Daysquare). So, the need of `Bmemo`, the support of the lunar calendar.
 
 ============
