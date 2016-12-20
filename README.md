@@ -2,7 +2,7 @@
 
 ###### This is a Chinese Calendar.
 
-###### The project `AMACalendar` is customized for `Bmemo` and it borrows [daysquare](https://github.com/unixzii/Daysquare). Because `Bmemo` reason, i added the support of the lunar calendar.
+###### The project `AMACalendar` is customized for `Bmemo` and it borrows [daysquare](https://github.com/unixzii/Daysquare). The reson of `Bmemo` that i added the support of the lunar calendar.
 
 ============
 [![CocoaPods](https://img.shields.io/cocoapods/v/AMACalendar.svg)](https://github.com/Ama4Q/AMACalendar)
