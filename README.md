@@ -7,7 +7,9 @@
 ============
 [![CocoaPods](https://img.shields.io/cocoapods/v/AMACalendar.svg)](https://github.com/Ama4Q/AMACalendar)
 [![Swift Package Manager](https://rawgit.com/jlyonsmith/artwork/master/SwiftPackageManager/swiftpackagemanager-compatible.svg)](https://swift.org/package-manager/)
-[![Build Status](https://travis-ci.org/Ama4Q/AMACalendar.svg?branch=master)](https://travis-ci.org/Ama4Q/AMACalendar)
+[![License](https://img.shields.io/cocoapods/l/AMACalendar.svg?style=flat)](http://cocoapods.org/pods/AMACalendar)
+[![Platform](https://img.shields.io/cocoapods/p/AMACalendar.svg?style=flat)](http://cocoapods.org/pods/AMACalendar)
+[![Request](https://img.shields.io/cocoapods/r/AMACalendar.svg?style=flat)](http://cocoapods.org/pods/AMACalendar)
 
 
 Usage
