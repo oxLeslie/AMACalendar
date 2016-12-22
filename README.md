@@ -39,5 +39,5 @@ Installation
 - Cocoapods
 
 ```ruby
-pod 'AMACalendar', ~> 0.0.1
+pod 'AMACalendar', ~> 0.0.2
 ```
