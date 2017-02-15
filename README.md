@@ -31,7 +31,7 @@ view.addSubview(calendar)
 @objc fileprivate func calendarChange(view: calendarView) {
     let formatter = DateFormatter()
     formatter.dateFormat = "YYYY-MM-dd"
-    print(formatter.string(from: (view.selectedDate?.0)!), view.selectedDate!.1)
+    print(formatter.string(from: view.selectedDate!.0, view.selectedDate!.1)
 }
 ```
 Installation
